@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+            #body {
+                text-align: center;
+                padding-top: 200px;
+                color: blue;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #hyperlinks {
+                position:absolute;
+                padding: 10px;
+                top:0;
+                right:0;
+            }
+            #link1 {
+                padding-right: 5px;
+            }
+
+            #text {
+                border: 1px solid black;
+                size: 100px;
+                height: 25px;
+                width: 500px;
+                border-radius: 10px;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <div id = hyperlinks> 
+            <a id = link1 href= images.html>Google Images</a> 
+            <a href= advancedsearch.html>Google Advanced Search</a>
+        </div>
+    <div id = body>
+        <h1>
+            GOOGLE SEARCH
+        </h1>
+        
+        <form action="https://google.com/search"> 
+            <input id = text type="text" name="q" placeholder = "Search Google...">
+            <br> <br>
+            <input type="submit" name="btnK" value="Google Search" class="button">
+            <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
+        </form>
+    </div>
+    </body>
+</html>

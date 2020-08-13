@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+             #body {
+                text-align: center;
+                padding-top: 200px;
+                color: blue;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #hyperlinks {
+                position:absolute;
+                padding: 10px;
+                top:0;
+                right:0;
+            }
+            #link1 {
+                padding-right: 5px;
+            }
+
+            #text {
+                border: 1px solid black;
+                size: 100px;
+                height: 25px;
+                width: 500px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = hyperlinks> 
+            <a href= search.html> Google Search</a>
+        </div>
+    <div id = body>
+        <h1>GOOGLE IMAGES</h1>
+        <form action="http://images.google.com/images"> 
+            <input id = text-block type="text" name="q" placeholder = "Search Google Images..." size = 75%>
+            <br> <br>
+            <input type="submit" value="Google Images Search">
+        </form>
+    </div>
+    </body>
+</html>
